@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Testing_N_Tier.MVC</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Testing_N-Tier.DAL\Testing_N-Tier.DAL.csproj" />
+    <ProjectReference Include="..\Testing_N-Tier.Domain\Testing_N-Tier.Domain.csproj" />
+    <ProjectReference Include="..\Testin_N-Tier.Application\Testin_N-Tier.Application.csproj" />
+  </ItemGroup>
+
+</Project>
